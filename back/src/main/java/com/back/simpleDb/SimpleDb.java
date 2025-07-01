@@ -47,7 +47,7 @@ public class SimpleDb {
             log.error("method=run, SQL error: {}", e.getMessage());
 //            throw new RuntimeException(e);
         } finally {
-            close();
+//            close();
         }
     }
 
@@ -62,7 +62,7 @@ public class SimpleDb {
         } catch (SQLException e) {
             log.error("method=run, SQL error: {}", e.getMessage());
         }finally{
-            close();
+//            close();
         }
     }
 
